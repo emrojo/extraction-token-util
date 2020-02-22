@@ -7,5 +7,7 @@ Gem::Specification.new do |s|
   s.files = Dir["{lib}/**/*.rb", "bin/*", "LICENSE", "*.md"]
   s.authors = ["Eduardo Martin Rojo"]
   s.require_paths = ["lib"]
-  s.add_development_dependency "rspec"
+  s.license = "MIT"
+  s.homepage = "https://rubygems.org/gems/extraction_token_util"
+  s.add_development_dependency "rspec", '>= 3'
 end
