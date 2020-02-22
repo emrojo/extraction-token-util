@@ -9,5 +9,5 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.license = "MIT"
   s.homepage = "https://rubygems.org/gems/extraction_token_util"
-  s.add_development_dependency "rspec", '>= 3'
+  s.add_development_dependency "rspec", '~> 3'
 end
