@@ -5,6 +5,8 @@ cache:
   bundler: true
   directories:
   - vendor/bundle
+before_install:
+  - gem install bundler
 install:
 - bundle install
 script:
