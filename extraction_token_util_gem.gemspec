@@ -1,6 +1,7 @@
 Gem::Specification.new do |s|
   s.name = %q{extraction_token_util}
   s.version = "0.0.1"
+  s.version = "#{s.version}-alpha-#{ENV['TRAVIS_BUILD_NUMBER']}" if ENV['TRAVIS']
   s.date = %q{2020-02-22}
   s.summary = %q{Set of Ruby methods to provide lexical support to common formats in use in Extraction Lims}
   s.files = Dir["{lib}/**/*.rb", "bin/*", "LICENSE", "*.md"]
