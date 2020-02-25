@@ -3,7 +3,7 @@
 Gem::Specification.new do |s|
   s.name = 'extraction_token_util'
   version = '0.0.3a'
-  version = (ENV['TRAVIS_BUILD_NUMBER']).to_s if version.end_with?('a')
+  version += (ENV['TRAVIS_BUILD_NUMBER']).to_s if version.end_with?('a')
   s.version = version
   s.date = '2020-02-22'
   s.summary = %(
